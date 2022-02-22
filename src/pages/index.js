@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import PosterrLogo from '../assets/logo.svg'
+import {Layout} from '../components/layout'
 
 export default function Home() {
   return (
@@ -8,12 +9,7 @@ export default function Home() {
         <title>Home Page / Posterr</title>
       </Head>
 
-      <main >
-        <PosterrLogo/>
-
-        <h1>Welcome to <a href="https://nextjs.org">Next.js!</a></h1>
-
-      </main>
+      <Layout />
     </div>
   )
 }
